@@ -14,14 +14,14 @@ namespace BillWater
         public int Amountofwaterthismonth { get; set; }
         public int Amountofwaterlastmonth { get; set; }
         public int Amountofwaterconsumed {  get; set; }
-        public int Totalbill {  get; set; }
+        public double Totalbill {  get; set; }
 
         public User()
         {
 
         }
 
-        public User(string name, int Phone, string custom, int Amountofwaterthismonth, int Amountofwaterlastmonth, int Amountofwaterconsumed, int Totalbill)
+        public User(string name, int Phone, string custom, int Amountofwaterthismonth, int Amountofwaterlastmonth, int Amountofwaterconsumed, double Totalbill)
         {
             Yourname = name;
             Phonenumber = Phone;
